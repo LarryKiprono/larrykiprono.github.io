@@ -14,6 +14,13 @@ img{
   margin:auto;
 }
 
+/* EXTRA COMMENT*/
+.extra{
+  background:#581845;
+  color:#fff;
+  opacity: 60%;
+}
+
 /* COMMON CLASSES */
 .primary-text{
   color:#56a79a;
