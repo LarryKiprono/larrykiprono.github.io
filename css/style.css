@@ -6,6 +6,11 @@ body{
   padding:0;
 }
 
+@font-face {
+    font-family: 'heineken'; /*a name to be used later*/
+    src: url("Heineken.ttf"); /*URL to font*/
+}
+
 #pong {
   background: url('http://www.claudiogomboli.com/lab/gallery/imgs/background.jpg');
   padding-left:40px;
