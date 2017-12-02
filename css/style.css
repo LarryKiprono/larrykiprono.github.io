@@ -6,13 +6,13 @@ body{
   padding:0;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Heineken'; /*a name to be used later*/
-    src: url("Heineken.ttf"); /*URL to font*/
+    /*src: url("Heineken.ttf"); /*URL to font*/*/
 }
 
-#main-header h1 {
-    font-family: 'heineken';
+/*#main-header h1 {
+    font-family: 'heineken';*/
 	
 /*#main-header li{
     font-family: 'heineken';
