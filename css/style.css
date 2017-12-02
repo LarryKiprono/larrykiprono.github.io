@@ -1,5 +1,4 @@
 body{
-  font-family:'Open-sans', sans-serif;
   font-size:17px;
   line-height:1.5em;
   margin:0;
@@ -11,6 +10,19 @@ body{
   padding-left:40px;
   padding-bottom:25px;
 }
+
+ @font-face {
+	 font-family:'Billabong';
+	 src:url("Billabong.ttf");
+}	 
+	 
+  .band-camp {
+     font-family: 'Billabong';
+  .band-camp h4{
+     font-family: 'Billabong';
+     font-size: 1.5em;
+     color: #125688;
+ }
 
 .stream h4{
   font-size: 27px;
