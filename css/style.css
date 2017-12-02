@@ -1,5 +1,5 @@
 body{
-  font-family:'Open-sans', sans-serif;
+  font-family:'Heineken','Open-sans', sans-serif;
   font-size:17px;
   line-height:1.5em;
   margin:0;
@@ -7,12 +7,8 @@ body{
 }
 
 @font-face {
-    font-family: 'heineken'; /*a name to be used later*/
+    font-family: 'Heineken'; /*a name to be used later*/
     src: url("Heineken.ttf"); /*URL to font*/
-}
-
-#main-header {
-    font-family: 'heineken';
 }
 
 #main-header h1 {
