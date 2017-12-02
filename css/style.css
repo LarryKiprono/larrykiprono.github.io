@@ -1,18 +1,9 @@
 body{
-  font-family:'Open-sans', sans-serif, 'Billabong','Heineken';
+  font-family:'Open-sans', sans-serif;
   font-size:17px;
   line-height:1.5em;
   margin:0;
   padding:0;
-}
-
-#band-camp {
-    font-family: 'Billabong';
-	
-#band-camp h4{
-    font-family: 'Billabong';
-    font-size: 1.5em;
-    color: #125688;
 }
 
 #pong {
