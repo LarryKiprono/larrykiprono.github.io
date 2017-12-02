@@ -11,6 +11,15 @@ body{
     src: url("Heineken.ttf"); /*URL to font*/
 }
 
+.heineken {
+    font-family: 'instafont';
+}
+.heineken-li{
+    font-family: 'heineken';
+	font-size: 1.5em;
+	color: #125688;
+}
+
 #pong {
   background: url('http://www.claudiogomboli.com/lab/gallery/imgs/background.jpg');
   padding-left:40px;
