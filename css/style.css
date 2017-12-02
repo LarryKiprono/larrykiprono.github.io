@@ -1,14 +1,9 @@
 body{
-  font-family:'Heineken','Open-sans', sans-serif;
+  font-family:'Billabong','Heineken','Open-sans', sans-serif;
   font-size:17px;
   line-height:1.5em;
   margin:0;
   padding:0;
-}
-
-@font-face {
-    font-family: 'Billabong'; /*a name to be used later*/
-    src: url("Billabong.ttf"); /*URL to font*/
 }
 
 #band-camp {
