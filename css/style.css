@@ -1,17 +1,9 @@
 body{
-  font-family:Sans-serif, 'open-sans', 'Billabong','Heineken';	
+  font-family:Sans-serif, 'open-sans', sans-serif;	
   font-size:15px;
   line-height:1.5em;
   margin:0;
   padding:0;
-	
-.type-speed{
-  align: center;	
-}
-.type-speed h4{
-  color: #003366; 
-  padding-left:17px ;"
-}
 	
 .band-camp {
  padding-left: 18px;
