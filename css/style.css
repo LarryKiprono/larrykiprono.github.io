@@ -4,8 +4,16 @@ body{
   line-height:1.5em;
   margin:0;
   padding:0;
+	
+.type-speed{
+  align: center;	
 }
-
+.type-speed h4{
+  font-family: 'Trebuchet MS';
+  color: #003366; 
+  padding-left:17px ;"
+}
+	
 .band-camp {
  padding-left: 18px;
 }
