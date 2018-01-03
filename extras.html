@@ -44,13 +44,11 @@
 html {
   box-sizing: border-box;
 }
-
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
-
 html,
 body {
   font-family: "Roboto", helvetica, arial, sans-serif;
@@ -58,7 +56,6 @@ body {
   -ms-text-size-adjust: 100%;
   font-size: 62.5%;
 }
-
 body {
   background: url('https://source.unsplash.com/assets/photo-1433959352364-9314c5b6eb0b-ef3fe6b0fe97031bbaf5d39b9e9382c4662a45ab1b8bb0f395cb9ddf62d4739a.jpg');
   color: #333;
@@ -68,16 +65,13 @@ body {
   text-rendering: optimizeLegibility;
   /*font-weight:300;*/
 }
-
 a,.user {
   text-decoration: none;
   color: #88d;
 }
-
 a:hover {
   color: #5b5;
 }
-
 a.button {
 	display: inline-block;
 	text-align: center;
@@ -105,19 +99,16 @@ figure {
   margin: 0;
   line-height: 0;
 }
-
 img {
   border: 0;
   height: auto;
   max-width: 100%;
 }
-
 img:hover {
   filter: alpha(opacity=9000);
   opacity: 0.90;
   filter: alpha(opacity=90);
 }
-
 article,
 figure,
 footer,
@@ -126,7 +117,6 @@ main {
   display: block;
 }
 /*--- Clearings ---*/
-
 header:before,
 header:after,
 main:before,
@@ -134,39 +124,30 @@ main:after {
   content: "";
   display: table;
 }
-
 header:after,
 main:after {
   clear: both;
 }
-
 main {
   position: relative;
   width: 1200px;
   max-width: 96%;
   margin: 0 auto;
 }
-
-
 /*=== Avatars === */
-
 img[class*="avatar-"] {
   display: inline-block;
   vertical-align: top;
   margin-right: 6px;
 }
-
 img[class*="avatar-"] {
   border-radius: 50%
 }
-
 img.avatar-32 {
   width: 32px;
   height: 32px;
 }
-
 /*=== Cards === */
-
 [class*="card-"],
 [class*="card-"]>a {
   position: relative;
@@ -180,15 +161,12 @@ img.avatar-32 {
   /*align-items: center;
   /*min-height: 100vh;*/
 }
-
-
 [class*="card-"] figure img {
   margin: 0 auto;
   display: block;
 }
 /*==  Horizontal Cards / Images inside container:
 object-fit to re-frame images rather than just stretch and resize them  === */
-
 @media (min-width: 800px) and (max-width: 1200px) {
 [class*="card-"] figure {
     vertical-align: middle;
@@ -219,7 +197,6 @@ font-size: 1.6rem;
 line-height: 3.2rem;
 }
 [class*="card-"] .flex-content p:last-child{margin-bottom: 0;}
-
 [class*="card-"] p.user {
   position: relative;
   line-height: .8rem;
@@ -232,7 +209,6 @@ line-height: 3.2rem;
 [class*="card-"] header p.user {
   margin: 0;
 }
-
 [class*="card-"] .user img[class*="avatar-"] {
   float: left;
 }
@@ -240,16 +216,13 @@ line-height: 3.2rem;
   display: block;
   margin-top: 1.3rem;
 }
-
 [class*="card-"] .flex-content a.button {
   float:right;
   font-weight:600;
   padding: .8rem;
   border-radius: 3px;
 }
-
 /* Featured/Popular/Buy*/
-
 .ribbon-buy {
   position: absolute;
   z-index: 9999;
@@ -264,7 +237,6 @@ line-height: 3.2rem;
   padding-top: 2.6rem;
   font-weight: 600;
 }
-
 .ribbon-buy:after {
   position: absolute;
   bottom: -8px;
@@ -274,11 +246,9 @@ line-height: 3.2rem;
   -webkit-transform: scale(1.0001);
   -moz-transform: scale(1.0001);
 }
-
 .ribbon-buy:hover {
   height: 50px;
 }
-
 @media (min-width: 800px) {
   /*== Cards (Sizes) - Reference: figure img:-70,60,50,40,30... === */
   .card-30 figure,
@@ -318,9 +288,7 @@ line-height: 3.2rem;
   padding-bottom:1.6rem;
   margin-bottom: 1.4rem;
 }
-
 /*== Card - Mobile === */
-
 @media (max-width: 799px) {
   [class*="card-"],
   [class*="card-"]>a {
@@ -330,8 +298,6 @@ line-height: 3.2rem;
   .card header {
     width: 100%
   }
-
-
   /*== Mobile Card - Header === */
   [class*="card-"] header {
     position: absolute;
@@ -345,10 +311,7 @@ line-height: 3.2rem;
     margin-top: 8.1rem;
   }
 }
-
-
 /*== Card - Footer === */
-
 [class*="card-"] footer {
   display: -webkit-flex;
   display: flex;
@@ -357,7 +320,6 @@ line-height: 3.2rem;
   justify-content: flex-end;
   text-transform: lowercase;
 }
-
 [class*="card-"] footer p {
   display: -webkit-flex;
   display: flex;
@@ -365,7 +327,6 @@ line-height: 3.2rem;
   padding-top: .8rem;
   margin-bottom: 0;
 }
-
 [class*="card-"] a[class*="bt-"] {
   padding-left: 3rem;
   background-image: url('http://jlantunez.com/imgs/spritecard.png');
@@ -374,24 +335,19 @@ line-height: 3.2rem;
 [class*="card-"] a.bt-love {
   background-position: 0 7px;
 }
-
 [class*="card-"] a.bt-love:hover {
   color: #f34;
   background-position: 0 -25px;
 }
-
 [class*="card-"] a.bt-share {
   background-position: 0 -56px;
 }
-
 [class*="card-"] a.bt-share:hover {
   background-position: 0 -90px;
 }
-
 [class*="card-"] a.bt-comment {
   background-position: 0 -123px;
 }
-
 [class*="card-"] a.bt-comment:hover {
   background-position: 0 -157px;
 }
@@ -399,16 +355,13 @@ a.location {
   background: url('http://jlantunez.com/imgs/spritecard.png') no-repeat -4px bottom;
   padding-left: 2rem;
 }
-
 @media (max-width: 500px) {
   [class*="card-"] footer a[class*="bt-"] {
     text-indent: -4000px;
     width: 24px;
   }
 }
-
 /*== List Product/Specs === */
-
 [class*="card-"] .flex-content ul {
   margin: 0 0 1.2rem;
   padding:0;
@@ -420,14 +373,11 @@ a.location {
   padding: .4rem 0;
   list-style: none;
 }
-
 /*==== COLORS === */
-
 main [class*="card-"] {
   background: #fff;
   box-shadow: 0 1px 2px rgba(50, 50, 50, 0.15), 0 0 1px rgba(50, 50, 50, 0.15);
 }
-
 /*[class*="card-"] figure {
   background: #eee;
 }*/
@@ -440,7 +390,6 @@ main [class*="card-"] {
 	border-bottom: 1px solid #eee;
  }
 }
-
 .user span,[class*="card-"] footer,[class*="card-"] .subinfo {
   color: #bbb;
 }
@@ -450,21 +399,15 @@ main [class*="card-"] {
 [class*="card-"] .ribbon-buy {
   color: #fff;
 }
-
 /*== Card - Footer === */
-
 [class*="card-"] footer p {
   border-top: 1px solid #eee;
 }
-
-
 /* --- Featured / Popular --- */
-
 .ribbon-buy,.ribbon-buy:hover {
   background: #a00;
   color: #fff;
 }
-
 .ribbon-buy:after {
   border: 24px solid transparent;
   border-top: none;
@@ -481,23 +424,18 @@ background-repeat:no-repeat;
 background-position:center 88%;
 text-indent:-4000px;
 }
-
 [class*="card-"] a.button.followed,[class*="card-"] a.button:hover {
   background: #6c7;
 }
-
-
 [class*="card-"] ul>li {
   border-bottom: 1px solid #f5f5f5;
 }
-
 [class*="card-"] ul>li:last-child {border-bottom: none;}
 [class*="card-"] a.button {color:#fff;}
 [class*="card-"] footer a,
 cite {
   color: #bbb;
 }
-
 [class*="card-"] footer a:hover {
   color: #333;
 }
@@ -743,76 +681,55 @@ Tapas Deluxe .card50 odd even
 
    <!-- <h4>SkySports MainEvent</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/skyspmain.php?rel=0" allowfullscreen></IFRAME>
-
     <h4>SkySports PremierLeague</h4>
     <iframe autoplay="0" autoplay="false" height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=skypl?rel=0" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>SkySports Football</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/skyspfootball.php?rel=0" allowfullscreen></IFRAME>
-
     <h4>SkySports NewsHD</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/skysportsnews.php?rel=0" ALLOWFU	LLSCREEN></IFRAME>
-
     <h4>SkySports Action</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/skyspaction.php?rel=0" ALLOWFULLSCREEN></IFRAME>
-
     <h4>SkySports Arena</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/skysparena.php?rel=0" ALLOWFULLSCREEN></IFRAME>
-
     <h4>BTsports1</h4>
     <iframe autoplay="0" autoplay="false" src="http://abcast.me/streams/btsport1.html?rel=0" width="700" height="410" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
     <h4>BTsport2</h4>
     <iframe autoplay="0" autoplay="false" src="http://abcast.me/streams/btsport2.html" width="700" height="410" frameborder="0" scrolling="no" allowfullscreen></iframe>
-
     <h4>BTsports3</h4>
     <iframe autoplay="0" autoplay="false" height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bt3" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD1</h4>
     <iframe autoplay="0" autoplay="false" height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein1" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD2</h4>
     <iframe autoplay="0" autoplay="false" height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein2" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD3</h4>
     <iframe autoplay="0" autoplay="false" frameborder="0" marginheight="0" marginwidth="0" height="490" src="http://livetv.sc/Channel/Bein-Sport-3.php" name="iframe_a" scrolling="no" width="620">Your Browser Do not Support Iframe</iframe>
-
     <h4>BeinSports HD4</h4>
     <iframe autostart="0" autostart="false" height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein4" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD5</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/beinsport5.php?rel=0" ALLOWFULLSCREEN></IFRAME>
-
     <h4>BeinSports HD6</h4>
     <iframe autostart="0" autostart="false"  height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein6?rel=0" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD7</h4>
     <iframe autostart="0" autostart="false"  height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein7?rel=0" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD8</h4>
-
     <h4>BeinSports HD9</h4>
     <iframe autostart="0" autostart="false"  height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein9?rel=0" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD10</h4>
     <iframe autostart="0" autostart="false"  height="360" width="640" src="http://showsport-tv.com/embedplayer.php?ch=bein10?rel=0" allowfullscreen scrolling="no" frameborder="0"></iframe>
-
     <h4>BeinSports HD11</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/beinsport11.php?rel=0" ALLOWFULLSCREEN></IFRAME>
-
     <h4>BeinSports HD12</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/beinsport12.php?rel=0" ALLOWFULLSCREEN></IFRAME>
-
     <h4>NBC<i>S</i>N</h4>
     <IFRAME FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=620 HEIGHT=460 SRC="http://www.skyembed.com/nbcsn.php?rel=0" ALLOWFULLSCREEN></IFRAME>
 </div> -->
 	   
 	   
-<!--<div class="stream">
+<div class="stream">
   <h4><b><i>JesusIsLord Radio</i></b></h4>
   <script type="text/javascript">var cstrpuid = 283854;var cstrpwidth = "500";var cstrpheight = "325";</script>
 <script type="text/javascript" src="http://cdn.caster.fm/0070B7/widgets/player.js"></script>
-  <--   DO NOT REMOVE THE LINKS BELOW, THEY  WILL BE HIDDEN (AND WILL HELP US A LOT)   ->
+  <!--   DO NOT REMOVE THE LINKS BELOW, THEY  WILL BE HIDDEN (AND WILL HELP US A LOT)   -->
 <a id="cstrplb" href="http://www.caster.fm/">Free Shoutcast Hosting</a><a id="cstrplb2" href="http://www.caster.fm/">Radio Stream Hosting</a>
 <div id="cstrpdiv"></div>
   <script type="text/javascript">var qadserve_width  = "800";var qadserve_height = "440";var qadserve_pid = "0673a924-bf1c-4801-b262-20ccb7f53421";var qadserve_skip;
@@ -829,16 +746,7 @@ n.wmode="opaque",swfobject.embedSWF("http://cdn.caster.fm/0070B7/widgets/player.
 e&&"undefined"!=e&&"null"!=e&&void 0!=e&&null!=e&&t&&"undefined"!=t&&"null"!=t&&void 0!=t&&null!=t||alert("Please do not remove the Caster.fm link. \n IT IS GOING TO BE HIDDEN ANYWAY.")
 var a=e.firstChild.nodeValue,d=e.href,n=t.firstChild.nodeValue,r=t.href
 "Free Shoutcast Hosting"!=a||"http://www.caster.fm/"!=d||"Radio Stream Hosting"!=n||"http://www.caster.fm/"!=r?alert("Please do not remove the Caster.fm link.\n  IT IS GOING TO BE HIDDEN ANYWAY."):(e.style.display="none",t.style.display="none",cstrloadScript("http://cdn.caster.fm/0070B7/widgets/inc/swfobject.js",cstrloadPlayer))}
-bindEvent(window,"load",cstrpload);</script> -->
-
-	   <!-- TYPING SPEED TEST -->
-	<div class="band-camp"> <h4> Typing Speed Test</h4>
-<iframe src="https://typing-speed-test.aoeu.eu/?iframe=1;lang=en"
-    width="700"
-    height="300"
-    style="border: 0;"
-		></iframe></div>
-	   
+bindEvent(window,"load",cstrpload);</script>
 
     <!-- FOOTER -->
     <footer id="main-footer">
